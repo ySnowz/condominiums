@@ -13,19 +13,19 @@ export const Companies = () => {
     >
       <div className="p-4 flex flex-row justify-around items-center">
         <img
-          src="../../src/assets/prologis.png"
+          src="./prologis.png"
           className="lg:w-[100px] w-[50px]"
         />
         <img
-          src="../../src/assets/tower.png"
+          src="./tower.png"
           className="lg:w-[100px] w-[50px]"
         />
         <img
-          src="../../src/assets/equinix.png"
+          src="./equinix.png"
           className="lg:w-[100px] w-[50px]"
         />
         <img
-          src="../../src/assets/realty.png"
+          src="./realty.png"
           className="lg:w-[100px] w-[50px]"
         />
       </div>

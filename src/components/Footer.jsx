@@ -4,7 +4,7 @@ export const Footer = () => {
       <div className="w-full px-8 py-4 flex justify-between items-start">
         <div>
           <img
-            src="../src/assets/logo2.png"
+            src="./logo2.png"
             className="sm:w-[75px] lg:w-[150px]"
           />
           <p className="w-[200px] opacity-70 text-[12px]">

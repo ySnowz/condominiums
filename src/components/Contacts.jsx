@@ -104,7 +104,7 @@ export const Contacts = () => {
         </div>
         <div className="flex items-center justify-center">
           <img
-            src="../src/assets/contact.jpg"
+            src="./contact.jpg"
             alt=""
             className="sm:hidden lg:block lg:w-[350px] lg:h-[460px] rounded border border-orange-400"
           />

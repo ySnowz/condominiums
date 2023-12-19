@@ -16,7 +16,7 @@ export const Value = () => {
       <div className="flex flex-col lg:flex-row justify-center items-start gap-8">
         <div className="hidden lg:block">
           <img
-            src="../../src/assets/value.png"
+            src="./value.png"
             alt="image"
             className="rounded-lg border border-orange-400 lg:w-[350px] lg:h-[460px] md:w-[250px]"
           />

@@ -76,7 +76,7 @@ export const Hero = () => {
             type: "spring",
           }}>
             <img
-              src="../../src/assets/hero-image.png"
+              src="./hero-image.png"
               alt="hero-image"
               className="rounded-lg border border-orange-400 lg:w-[350px] lg:h-[460px] md:w-[250px]"
             />
