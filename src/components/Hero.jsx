@@ -78,7 +78,7 @@ export const Hero = () => {
             <img
               src="./hero-image.png"
               alt="hero-image"
-              className="rounded-lg border border-orange-400 lg:w-[350px] lg:h-[460px] md:w-[250px]"
+              className="hidden lg:block rounded-lg border border-orange-400 lg:w-[350px] lg:h-[460px] md:w-[250px]"
             />
           </motion.div>
         </div>

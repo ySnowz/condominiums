@@ -7,18 +7,18 @@ export const Contacts = () => {
         <div className="flex flex-col items-start justify-center">
           {/* texts */}
           <div>
-            <h2 className="text-2xl text-orange-400 font-medium tracking-wide">
+            <h2 className="text-xl md:text-2xl text-orange-400 font-medium tracking-wide">
               Our Contact
             </h2>
-            <h1 className="text-4xl text-slate-700 font-bold tracking-wide">
+            <h1 className="text-2xl md:text-4xl text-slate-700 font-bold tracking-wide">
               Easy to contact us
             </h1>
-            <p className="opacity-70 text-slate-600 text-[12px] w-[400px] font-medium">
+            <p className="opacity-70 text-slate-600 text-[12px] md:text-[14px] w-[300px] md:w-[400px] font-medium">
               We always ready to help by providijng the best services for you.
               We beleive a good blace to live can make your life better
             </p>
           </div>
-          <div className="mt-4 w-[500px] flex flex-row flex-wrap justify-start items-center gap-4">
+          <div className="mt-4 md:w-[500px] flex flex-row flex-wrap justify-center items-center md:justify-start md:items-center gap-4">
             {/* boxs */}
             <div className="drop-shadow-sm bg-gray-50 border border-slate-200 p-4 rounded">
               {/* header */}
@@ -106,7 +106,7 @@ export const Contacts = () => {
           <img
             src="./contact.jpg"
             alt=""
-            className="sm:hidden lg:block lg:w-[350px] lg:h-[460px] rounded border border-orange-400"
+            className="hidden lg:block lg:w-[350px] lg:h-[460px] rounded border border-orange-400"
           />
         </div>
       </div>
