@@ -30,7 +30,7 @@ export const Hero = () => {
               Find a variety of properties that suiut you very easity Forget all
               difficulties in finding a residence for you
             </p>
-            <div className="mt-4 flex items-center justify-between bg-white w-[300px] md:w-[420px] py-2 px-2 rounded-sm">
+            <div className="mt-4 flex items-center justify-around bg-white w-[280px] md:w-[420px] py-2 px-2 rounded-sm">
               <input type="text"  className="placeholder:text-[12px]" placeholder="Insert A Localization" />
               <button className="text-[12px] py-2 px-3 font-semibold md:text-[16px] md:py-2 md:px-4 bg-gradient-to-l from-blue-600 to-blue-500 rounded-sm uppercase md:font-bold text-white duration-75 active:scale-95">
                 Search
