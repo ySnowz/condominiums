@@ -9,10 +9,10 @@ export const Residencies = () => {
       <section className="w-full mt-16 flex flex-col items-center justify-center py-4">
         <div className="w-full px-8 flex flex-row items-center justify-between">
           <div>
-            <h2 className="text-2xl font-medium text-orange-400">
+            <h2 className="text-xl md:text-2xl font-medium text-orange-400">
               Best Choices
             </h2>
-            <h1 className="text-4xl font-bold tracking-wide text-slate-700 mb-4">
+            <h1 className="text-2xl md:text-4xl font-bold tracking-wide text-slate-700 mb-4">
               Popular Residencies
             </h1>
           </div>
@@ -23,12 +23,12 @@ export const Residencies = () => {
           </div>
           {data.map((item, i) => (
             <SwiperSlide key={i}>
-              <div className="flex gap-2 lg:w-[550px] items-start justify-start bg-gray-50 p-4 rounded-md drop-shadow-sm">
+              <div className="flex flex-col md:flex-row gap-2 lg:w-[550px] items-start justify-start bg-gray-50 p-4 rounded-md drop-shadow-sm">
                 <div>
                   <img src={item.image} className="lg:w-[250px] lg:h-[150px]" />
                 </div>
                 <div className="flex flex-col gap-1">
-                  <h2 className="text-slate-800 font-bold tracking-wide text-xl">
+                  <h2 className="text-slate-800 font-bold tracking-wide text-lg md:text-xl">
                     {item.name}
                   </h2>
                   <h3 className="text-slate-600 opacity-70 text-[12px] w-[280px]">

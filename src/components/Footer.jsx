@@ -1,9 +1,10 @@
 export const Footer = () => {
+
   return (
     <footer className="mt-16 w-full flex justify-center items-center flex-wrap">
       <div className="w-full px-8 py-4 flex justify-between items-start flex-wrap gap-4">
         <div>
-          <img src="../../src/assets/logo2.png" className="w-[75px] lg:w-[150px]"/>
+          <img src="../assets/logo2.png" className="w-[75px] lg:w-[150px]"/>
           <p className="w-[200px] opacity-70 text-[12px]">
             Our vision is to make all people the best place to live for them.
           </p>
